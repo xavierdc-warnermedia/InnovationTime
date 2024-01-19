@@ -1,23 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import LiveStream from './components/livestream';
+import FavePlayer from './components/fave-player';
+
+const liveStreamAddress = 'https://fave.api.cnn.io/v1/demo/?mediumId=livec76319f599742ab668c8b3ba6dcfed3ce7e817ad&mediumEnvironment=prod&isLive=true';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
     </div>
   );
 }

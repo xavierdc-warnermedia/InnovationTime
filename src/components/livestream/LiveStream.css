@@ -1,0 +1,23 @@
+div {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.live-stream {
+  margin: 0;
+  padding: 0;
+  aspect-ratio: 16/9;
+  height: 100%;
+  width: 70vw;
+}
+
+ .stream, .overlay { 
+  /* position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2; */
+  height: 100%;
+  width: 100%;
+} 
