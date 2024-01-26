@@ -1,13 +1,15 @@
-import React, {useEffect} from "react";
+import React from "react";
 
-const FavePlayer = (props) => {
-    let {id } = props;
-    id = "player-container"
+const FavePlayer = () => {
+    // let {id } = props;
+    const id = "player-container"
+
+    createPlayer(id);
     
   return (
     <>
       <div id="player-container" className="player-container"></div>
-      <button onClick={() => {createPlayer(id) }}>CLICK</button>
+      {/* <button onClick={() => {createPlayer(id) }}>CLICK</button> */}
     </>
   );
 };
