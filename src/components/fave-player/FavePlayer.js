@@ -1,14 +1,13 @@
 import React from "react";
 
 const FavePlayer = () => {
-    // let {id } = props;
-    const id = "player-container"
+    const id = "player-container";
 
     createPlayer(id);
     
   return (
     <>
-      <div id="player-container" className="player-container"></div>
+      <div id={id} className="player-container"></div>
       {/* <button onClick={() => {createPlayer(id) }}>CLICK</button> */}
     </>
   );
