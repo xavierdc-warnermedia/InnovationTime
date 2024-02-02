@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.506.0",
     "@cnnprivate/design-system": "^4.3.0",
     "@cnnprivate/fave-player": "^6.2.9-pre.9",
     "@testing-library/jest-dom": "^5.17.0",
