@@ -3,7 +3,7 @@
 A FAVE project utilizing AWS Rekognition and improving various items
 
 - Improving User Accessibility
-- Utilizing AWS Rekognition ML
+- Utilizing [AWS Rekognition ML]([url](https://aws.amazon.com/rekognition/))
 - Introducing more interactivity with the live player
 
 
