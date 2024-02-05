@@ -7,6 +7,10 @@ A FAVE project utilizing AWS Rekognition and improving various items
 - Introducing more interactivity into the live player
 
 
+# Resources
+- [AWS Rekognition docs](https://docs.aws.amazon.com/rekognition/latest/dg/setup-awscli-sdk.html)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
