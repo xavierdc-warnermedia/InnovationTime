@@ -13,3 +13,5 @@ When an ad is playing or a brand is shown on-screen, we can create a clickable l
 
 - Enable story tracking
 Give users the ability to subscribe to certain stories, keep track of live stories and articles and ping subscribed users when a story they are interested in has a new article out or if it's currently being covered on air. This could help cut down on spamming users with content they aren't interested in and ensure users are tuning in to stories relevant for them and improve engagement.
+
+- Utilize Shoflo to pull Lower Thirds and information pertaining to live shows
