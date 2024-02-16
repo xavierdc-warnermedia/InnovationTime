@@ -1,15 +1,15 @@
 // contains the profile image and description of a captured person on the live stream
 
 import React from 'react';
-import Icon from './icon';
-import Description from './description';
+import Icon from './icon/Icon';
+import Description from './description/Description';
 import './profile.css';
 
-const Profile = () => {
+const Profile = ({image, description, links}) => {
   return (
     <div>
-      <Icon />
-      <Description />
+      <Icon image={image} />
+      <Description description={description} links={links} />
     </div>
   )
 }
