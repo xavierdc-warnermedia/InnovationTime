@@ -1,0 +1,11 @@
+.profile_image-container {
+  max-width: 100px;
+  min-width: 30px;
+}
+
+img {
+  background-position: 50%;
+  background-size: cover;
+  border-radius: 50%;
+  width: 100%;
+}

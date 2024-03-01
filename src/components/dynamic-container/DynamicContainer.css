@@ -13,3 +13,8 @@ h3 {
 .container > * {
   margin: 8px;
 }
+
+.all-profiles_container {
+  max-width: 400px;
+  min-width: 100px;
+}

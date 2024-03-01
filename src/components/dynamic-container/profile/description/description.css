@@ -1,0 +1,9 @@
+p {
+  text-overflow: ellipsis;
+  text-align: start;
+}
+
+.profile_description {
+  height: 100%;
+  overflow-y: scroll;
+}
