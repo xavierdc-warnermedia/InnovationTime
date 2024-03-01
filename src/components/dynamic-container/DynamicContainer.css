@@ -1,0 +1,15 @@
+h3 {
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background: #211f1f96;
+  width: 20%;
+  box-shadow: 1px 1px 50px 1px #0000004a;
+}
+
+.container > * {
+  margin: 8px;
+}
