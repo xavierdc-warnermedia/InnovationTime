@@ -14,8 +14,14 @@ const DynamicContainer = () => {
 
   return (
     <div className="container">
-      <h3>Speakers In This Segment</h3>
-      <button className="button" onClick={nothing}>This button doesn't do anything</button>
+      <div className="meta-data_container">
+        <h3>Dynamic Container: Title (Who's On)</h3>
+        <h5>Description</h5>
+        <p>{new Date(Date.now()).toString()}</p>
+        <hr className='hr-solid'></hr>
+        {/* Create 3 clickable tabs that shows our different innovation ideas */}
+      </div>
+
       <div className="all-profiles_container">
         <Profile image={imageUrl} title={title} description={description} />
       </div>
